@@ -1,0 +1,72 @@
+{
+  "className": "fr.xebia.jpthiery.kata.minesweeper.MinesweeperFeatureTest",
+  "name": "Minesweeper Feature",
+  "scenarios": [
+    {
+      "className": "fr.xebia.jpthiery.kata.minesweeper.MinesweeperFeatureTest",
+      "testMethodName": "minesweeper_say_hello",
+      "description": "minesweeper say hello",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "i have a mine sweeper",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "i have a mine sweeper"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 15721781
+            },
+            {
+              "name": "i request hello",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "i request hello"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 493818
+            },
+            {
+              "name": "minesweeper say hello",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "minesweeper say hello"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 54429480
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 102521366
+        }
+      ],
+      "durationInNanos": 102521366,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}
